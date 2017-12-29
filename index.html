@@ -8,6 +8,7 @@
 </head>
 <body>
     <div ng-app="myApp" ng-controller="myCtrl">
+        <h1>{{titulo}}</h1>
         <p ng-repeat="(cidade, codigo) in cidades">{{cidade}}</p>
         <div ng-include="'rodape.html'"></div>
     </div>
